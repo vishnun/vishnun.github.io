@@ -6,8 +6,8 @@
 </description>
     <link>http://vishnun.github.io/</link>
     <atom:link href="http://vishnun.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Jan 2015 02:25:34 +0530</pubDate>
-    <lastBuildDate>Sat, 03 Jan 2015 02:25:34 +0530</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2015 03:38:41 +0530</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2015 03:38:41 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -101,6 +101,26 @@ Inspect the colorful/formatted url in the email.&lt;br /&gt;&lt;br /&gt;
 &lt;h2 id=&quot;thank-you&quot;&gt;Thank you..&lt;/h2&gt;
 &lt;p&gt;Happy Hacking …&lt;/p&gt;
 
+&lt;div class=&quot;g-plus&quot; data-action=&quot;share&quot; data-href=&quot;http://vishnun.github.io/blogs/2015/01/02/how-to-prevent-auto-links-in-gmail.html&quot;&gt;&lt;/div&gt;
+&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fvishnun.github.io%2Fblogs%2F2015%2F01%2F02%2Fhow-to-prevent-auto-links-in-gmail.html&amp;amp;width&amp;amp;layout=standard&amp;amp;action=like&amp;amp;show_faces=true&amp;amp;share=true&amp;amp;height=80&amp;amp;appId=874345859272451&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; height:80px;&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+&lt;!-- Add Disqus comments. --&gt;
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = &#39;HackBlog&#39;; // required: replace example with your forum shortname
+    var disqus_identifier = &quot;/blogs/2015/01/03/how-to-prevent-auto-links-in-gmail.html&quot;;
+
+    /* * * DON&#39;T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+        dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+        (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;p&gt;&lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 03 Jan 2015 00:39:47 +0530</pubDate>
         <link>http://vishnun.github.io/blogs/2015/01/03/how-to-prevent-auto-links-in-gmail.html</link>

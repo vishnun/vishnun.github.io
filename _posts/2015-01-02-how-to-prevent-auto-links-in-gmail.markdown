@@ -87,6 +87,11 @@ _____________________________________________________________________________
 ##Thank you..
 Happy Hacking ...
 
+<div class="g-plus" data-action="share" data-href="http://vishnun.github.io/blogs/2015/01/02/how-to-prevent-auto-links-in-gmail.html"></div>
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fvishnun.github.io%2Fblogs%2F2015%2F01%2F02%2Fhow-to-prevent-auto-links-in-gmail.html&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=874345859272451" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe>
 
 [firebug]: https://addons.mozilla.org/en-US/firefox/addon/firebug/
 [chrome-dev-tools]: https://developer.chrome.com/devtools
+
+
+{% include comments.html %}
