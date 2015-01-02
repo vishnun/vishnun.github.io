@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vishnu Narang</title>
+    <description>Vibrant and curious as a developer at ThoughtWorks. I&#39;m interested in smart devices and the whole idea of Internet Of Things. Using technology to make a fundamental difference in people&#39;s life is what I always strive to do. My aim is to learn something new every day and use it to the best of my abilities.
+</description>
+    <link>http://vishnun.github.io/</link>
+    <atom:link href="http://vishnun.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 03 Jan 2015 02:25:34 +0530</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2015 02:25:34 +0530</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>How to prevent auto links in &lt;span class=&#39;dark-red&#39;&gt;Gmail&lt;/span&gt;!</title>
+        <description>&lt;p&gt;We all know that when you compose an email in Gmail, any url that you copy-paste or type gets converted into a hyper-link.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Eg:&lt;/strong&gt; Plain text - &lt;em&gt;www.google.com&lt;/em&gt; - will become - &lt;a href=&quot;http://www.google.com&quot;&gt;www.google.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Have you wondered if we can prevent this from happening?? &lt;br /&gt;
+If you are thinking why would you ever need to prevent it, well let me tell you why I needed it.&lt;/p&gt;
+
+&lt;p&gt;Imagine you are building a website for your clients and there is a url from Google Alerts which the clients do not understand.&lt;/p&gt;
+
+&lt;p&gt;For example, try writing an email explaining how the following url is formed and what is important for the client:&lt;br /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://www.example.com/url?rct=j&amp;amp;sa=t&amp;amp;url=https://www.client-website.com/articles/some-article/&amp;amp;ct=ga&amp;amp;cd=XYZ&amp;amp;usg=ABC
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;here-is-what-i-wanted-to-do-in-the-emailbr&quot;&gt;Here is what I wanted to do in the email:&lt;br /&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Write the URL as:&lt;br /&gt;
+&lt;span class=&quot;highlight&quot;&gt;
+&lt;span class=&quot;c&quot;&gt;
+    http://www.example.com/url?rct=j&amp;amp;sa=t&amp;amp;url=&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;https://www.client-website.com/articles/some-article/&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;amp;ct=ga&amp;amp;cd=XYZ&amp;amp;usg=ABC
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span class=&quot;highlight&quot;&gt;
+And explain what&#39;s the significance of the url part in &lt;span class=&quot;bp&quot;&gt;grey&lt;/span&gt; and what&#39;s the significance of that in &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;.
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;I did that using the `Formatting options` while composing the email.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;text-center highlight&quot;&gt;&lt;strong class=&quot;&quot;&gt;But when I hit &lt;code&gt;Send...&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;this-is-what-google-email-parser-did&quot;&gt;This is what google email parser did:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;It recognized that i’m trying to put a url in the email. So it changed the url to look like any other link:
+&lt;br /&gt;&lt;a href=&quot;http://www.example.com/url?rct=j&amp;amp;sa=t&amp;amp;url=https://www.client-website.com/articles/some-article/&amp;amp;ct=ga&amp;amp;cd=XYZ&amp;amp;usg=ABC&quot;&gt;http://www.example.com/url?rct=j&amp;amp;sa=t&amp;amp;url=https://www.client-website.com/articles/some-article/&amp;amp;ct=ga&amp;amp;cd=XYZ&amp;amp;usg=ABC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;All that I had explained using color coding was useless.&lt;/li&gt;
+  &lt;li&gt;Even though I knew about the auto link detection by google, it did not strike my mind while writing the email.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;i-looked-at-all-the-settings-in-gmail-to-see-if-we-can-turn-off-auto-link-i-found-a-setting-to-enable-undo-send-for-30-seconds-useful-for-next-time-but-nothing-related-to-auto-links&quot;&gt;I looked at all the settings in Gmail to see if we can turn off auto link. I found a setting to enable &lt;code&gt;Undo send&lt;/code&gt; for 30 seconds (Useful for next time), &lt;strong&gt;but nothing related to auto links!!&lt;/strong&gt;.&lt;/h4&gt;
+
+&lt;h4 id=&quot;now-i-had-to-figure-out-a-hack-to-do-this--which-i-did--here-is-how-i-did-it-&quot;&gt;Now I had to figure out a &lt;strong&gt;Hack&lt;/strong&gt; to do this ! Which I did ! Here is how I did it …&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Write the url and use Formatting options to make it look the way you want.&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/public/Images/url_hack/gmail-formatting-options.png&quot; alt=&quot;Gmail Formatting Options&quot; title=&quot;Gmail Formatting Options&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open &lt;span class=&quot;dark-blue&quot;&gt;&lt;a href=&quot;https://developer.chrome.com/devtools&quot;&gt;Chrome developer tools&lt;/a&gt;&lt;/span&gt; OR &lt;span class=&quot;dark-blue&quot;&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/firebug/&quot;&gt;Firebug&lt;/a&gt;&lt;/span&gt; for Firefox users (IE Users - Download better browser!).
+Inspect the colorful/formatted url in the email.&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/public/Images/url_hack/inspect-gmail-url.png&quot; alt=&quot;Inspect gmail url&quot; title=&quot;Gmail Formatting Options&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the Chrome dev tools, make the following modifications by using &lt;strong&gt;Edit as html&lt;/strong&gt; option.&lt;br /&gt;&lt;br /&gt;
+  &lt;img src=&quot;/public/Images/url_hack/edit-as-html-option.png&quot; alt=&quot;Edit as html option&quot; title=&quot;Edit as Html Option&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Enclose &lt;code&gt;http://&lt;/code&gt; into a span tag.Like this &lt;code&gt;&amp;lt;span&amp;gt;http://&amp;lt;/span&amp;gt;&lt;/code&gt; &lt;br /&gt;&lt;br /&gt;
+  Before
+  &lt;img src=&quot;/public/Images/url_hack/edit-as-html-before.png&quot; alt=&quot;Edit as html before&quot; title=&quot;Edit as Html - before&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+  After
+  &lt;img src=&quot;/public/Images/url_hack/edit-as-html-after.png&quot; alt=&quot;Edit as html after&quot; title=&quot;Edit as Html - after&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Similarly&lt;/strong&gt;, Enclose &lt;code&gt;www.&lt;/code&gt; into a span tag. Like this &lt;code&gt;&amp;lt;span&amp;gt;www.&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;text-center highlight&quot;&gt;You are good to hit Send &lt;code&gt;Send...&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;And here is my inbox with the colorful/formatted URL as I wanted:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/public/Images/url_hack/url-hack-email-in-inbox.png&quot; alt=&quot;Email in Inbox&quot; title=&quot;Email-in-inbox&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;thank-you&quot;&gt;Thank you..&lt;/h2&gt;
+&lt;p&gt;Happy Hacking …&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 03 Jan 2015 00:39:47 +0530</pubDate>
+        <link>http://vishnun.github.io/blogs/2015/01/03/how-to-prevent-auto-links-in-gmail.html</link>
+        <guid isPermaLink="true">http://vishnun.github.io/blogs/2015/01/03/how-to-prevent-auto-links-in-gmail.html</guid>
+        
+        
+        <category>blogs</category>
+        
+      </item>
+    
+  </channel>
+</rss>
