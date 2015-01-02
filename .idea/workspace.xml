@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfe63edd-c7ff-403f-896a-030a2dc3946b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-01-02-how-to-prevent-auto-links-in-gmail.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/_layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/_syntax-highlighting.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/comments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/custom.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feed.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/blogs/2015/01/03/how-to-prevent-auto-links-in-gmail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vishnun.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,7 +34,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.166666" vertical-offset="805" max-vertical-offset="1455">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="1455">
               <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding />
             </state>
@@ -65,18 +44,48 @@
       <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="315">
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="315">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comments.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="comments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/comments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11432927" vertical-offset="0" max-vertical-offset="656">
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="345">
               <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feed.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/feed.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1815">
+              <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45801526" vertical-offset="45" max-vertical-offset="750">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,7 +94,7 @@
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="405">
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="405">
               <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding />
             </state>
@@ -99,38 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gmail-formatting-options.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/Images/url_hack/gmail-formatting-options.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_syntax-highlighting.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_syntax-highlighting.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="16.875" vertical-offset="405" max-vertical-offset="1095">
+            <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1095">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.333334" vertical-offset="214" max-vertical-offset="885">
-              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -139,7 +121,7 @@
       <file leaf-file-name="custom.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="375">
+            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="375">
               <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="10" />
               <folding />
             </state>
@@ -164,6 +146,7 @@
         <option value="$PROJECT_DIR$/_posts/2015-01-02-how-to-prevent-auto-links-in-gmail.markdown" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_includes/comments.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -217,116 +200,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="url_hack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vishnun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -336,6 +209,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$/_sass" />
       <recent name="$PROJECT_DIR$/_layouts" />
@@ -372,7 +246,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25767368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -408,11 +282,87 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_posts/2015-01-02-how-to-prevent-auto-links-in-gmail.markdown">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="1455">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="315">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="405">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Images/url_hack/edit-as-html-after.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Images/url_hack/gmail-formatting-options.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_syntax-highlighting.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1095">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="885">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="375">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -420,15 +370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="435">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/feed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -436,104 +377,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5168" max-vertical-offset="7005">
           <caret line="409" column="18" selection-start-line="409" selection-start-column="18" selection-end-line="409" selection-end-column="18" />
-          <folding>
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420232126000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -563,7 +407,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.333334" vertical-offset="214" max-vertical-offset="885">
+        <state vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="885">
           <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
           <folding />
         </state>
@@ -584,7 +428,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_syntax-highlighting.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.875" vertical-offset="405" max-vertical-offset="1095">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1095">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -592,7 +436,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="375">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="375">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
@@ -605,7 +449,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="405">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="405">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding />
         </state>
@@ -613,7 +457,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="315">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="315">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
@@ -624,7 +468,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.166666" vertical-offset="805" max-vertical-offset="1455">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="1455">
           <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
         </state>
@@ -632,8 +476,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/comments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11432927" vertical-offset="0" max-vertical-offset="656">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="345">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45801526" vertical-offset="45" max-vertical-offset="750">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
