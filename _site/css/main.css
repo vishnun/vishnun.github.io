@@ -465,3 +465,6 @@ pre code {
 
 img {
   border: 1px solid #9a9a9b; }
+
+p, .text-justify {
+  text-align: justify; }

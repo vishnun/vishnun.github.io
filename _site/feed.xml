@@ -6,12 +6,85 @@
 </description>
     <link>http://vishnun.github.io/</link>
     <atom:link href="http://vishnun.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Jan 2015 03:40:19 +0530</pubDate>
-    <lastBuildDate>Sat, 03 Jan 2015 03:40:19 +0530</lastBuildDate>
+    <pubDate>Sat, 14 Feb 2015 23:35:00 +0530</pubDate>
+    <lastBuildDate>Sat, 14 Feb 2015 23:35:00 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>How to prevent auto links in &lt;span class=&#39;dark-red&#39;&gt;Gmail&lt;/span&gt;!</title>
+        <title>How to be &#39;NOT JUST A UI DEV&#39; at ThoughtWorks!</title>
+        <description>&lt;h3 id=&quot;background&quot;&gt;Background:&lt;/h3&gt;
+&lt;p&gt;I did my BE from Pune Institute of Computer Technology - one of the best colleges in Pune for computer science studies.
+I used to be average in programming when I started but improved a lot by participating in programming contests throughout my engineering. ThoughtWorks was my dream company to start my career.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt; &lt;strong&gt;&quot;Curiosity!&quot;&lt;/strong&gt; - One word that I connect with the most and that motivates me in life.&lt;p&gt;
+
+&lt;p&gt;Right out of college, I joined ThoughtWorks as an application developer. The journey for every grad ThoughtWorker from around the world starts with a six week training at ThoughtWorks University in Bangalore (now Pune). It was one of the best phases of my life.&lt;/p&gt;
+
+&lt;p&gt;On return to my home office in Pune, my friend Shridhar and I were given an opportunity to learn front-end development skills. ThoughtWorks did not have many UI developers. They were not so successful in recruiting UI Devs. They wanted to try and make home grown UI developers out of Shridhar and me. Unlike Shridhar who always wanted to become a UI-Developer, all I wanted to do was learn something new and interesting. So I also took the opportunity to learn UI development.&lt;/p&gt;
+
+&lt;p&gt;After a couple of months of mentoring by awesome UI Devs, we were ready to take on a challenge. And a challenge it was when I worked on my first green-field project out of ThoughtWorks Gurgaon as the only UI-Dev. Being part of a small team and getting a lot of moral support from them helped me do well, right from the start. Curiosity is a strong feeling. I was not satisfied with what I was doing. I wanted to learn the backend technology being used. So I started taking some of the UI-work home so that I could spent some time in office pairing with others to learn basics of Ruby on Rails (RoR). This project and my initiative to learn RoR helped me understand the building blocks of RoR.&lt;/p&gt;
+
+&lt;p&gt;For the next project I had to travel to ThoughtWorks Chennai. Analysing design mock-ups and building wireframes was all that was expected from me in a month. But as usual, I had to find something more to satisfy my curiosity. So, for the first time I set up a working Rails project from scratch and then built the wireframes into it. To my surprise, the tech lead on the project used my setup to continue the project from then on.&lt;/p&gt;
+
+&lt;p&gt;After a year of hard work, I was ready for bigger challenges. I was once again staffed on a project as a UI-Developer. Although, this time, I was determined to learn RoR to a greater extent. Right from the first day on this new project, I had set the expectation with my Project Manager and my Tech-Lead that I won’t be doing only UI-Development and that I would also work on backend that was based on RoR. Thanks to the excellent support from the senior developers on the team, I improved much faster and soon I was ready to call myself a RoR developer. This experience helped me gain confidence and get cracking on my pet projects.&lt;/p&gt;
+
+&lt;p&gt;But throughout the journey there were always some people who thought of me as &quot;just a UI Dev&quot;. If I picked up any task outside the UI domain, there would always be someone who would pull me back from trying. “Just a UI-dev” was a very common phrase I would hear. Other UI-Devs had not challenged this. But thanks to the support from few people who believed in me, I was able to achieve my goals. Now, my designation at ThoughtWorks was - Not just a UI Dev.&lt;/p&gt;
+
+&lt;p&gt;I continued learning RoR and even played a role of “Coach” for a Rails Girls event held in ThoughtWorks Pune. That event gave my confidence a boost.&lt;/p&gt;
+
+&lt;p&gt;All this was perfectly aligned with my grand plan of being a complete developer, capable of working on front-end, backend and dev-ops. It&#39;s challenging to be good at front-end and backend both. I’m glad I chose this path for myself. It’s an exciting journey and there is a long way to go.&lt;/p&gt;
+
+&lt;p&gt;Today, I’m once again staffed on a project as a UI Developer. But it won’t be long before I once again take up the dual role.&lt;/p&gt;
+
+&lt;p&gt;Lastly, it has been a rollercoaster ride and a satisfying experience, working with some of the best developers on inventive and ingenious projects here at ThoughtWorks. It was a dream company back in college and it has been a dream come true indeed.&lt;/p&gt;
+
+&lt;br /&gt;
+&lt;h4&gt;- Vishnu Narang,&lt;/h4&gt;
+(Not just a UI-Dev @ThoughtWorks)
+&lt;br /&gt;
+
+
+&lt;div class=&quot;g-plus&quot; data-action=&quot;share&quot; data-href=&quot;http://vishnun.github.io/blogs/2015/01/02/how-to-prevent-auto-links-in-gmail.html&quot;&gt;&lt;/div&gt;
+
+&lt;a href=&quot;https://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-url=&quot;http://vishnun.github.io/blogs/2015/01/02/how-to-prevent-auto-links-in-gmail.html&quot; data-via=&quot;vishnu_narang&quot; data-size=&quot;large&quot; data-hashtags=&quot;UI&quot;&gt;Tweet&lt;/a&gt;
+&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?&#39;http&#39;:&#39;https&#39;;if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+&#39;://platform.twitter.com/widgets.js&#39;;fjs.parentNode.insertBefore(js,fjs);}}(document, &#39;script&#39;, &#39;twitter-wjs&#39;);&lt;/script&gt;
+
+&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fvishnun.github.io%2Fblogs%2F2015%2F01%2F02%2Fhow-to-prevent-auto-links-in-gmail.html&amp;amp;width&amp;amp;layout=standard&amp;amp;action=like&amp;amp;show_faces=true&amp;amp;share=true&amp;amp;height=80&amp;amp;appId=874345859272451&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; height:80px;&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+
+
+&lt;!-- Add Disqus comments. --&gt;
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = &#39;HackBlog&#39;; // required: replace example with your forum shortname
+    var disqus_identifier = &quot;/blogs/2015/02/15/how-to-be-not-a-just-ui-dev-at-thoughtworks.html&quot;;
+
+    /* * * DON&#39;T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+        dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+        (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+&lt;/p&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Feb 2015 01:17:47 +0530</pubDate>
+        <link>http://vishnun.github.io/blogs/2015/02/15/how-to-be-not-a-just-ui-dev-at-thoughtworks.html</link>
+        <guid isPermaLink="true">http://vishnun.github.io/blogs/2015/02/15/how-to-be-not-a-just-ui-dev-at-thoughtworks.html</guid>
+        
+        
+        <category>blogs</category>
+        
+      </item>
+    
+      <item>
+        <title>How to prevent auto links in Gmail!</title>
         <description>&lt;p&gt;We all know that when you compose an email in Gmail, any url that you copy-paste or type gets converted into a hyper-link.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Eg:&lt;/strong&gt; Plain text - &lt;em&gt;www.google.com&lt;/em&gt; - will become - &lt;a href=&quot;http://www.google.com&quot;&gt;www.google.com&lt;/a&gt;.&lt;/p&gt;
@@ -102,6 +175,10 @@ Inspect the colorful/formatted url in the email.&lt;br /&gt;&lt;br /&gt;
 &lt;p&gt;Happy Hacking …&lt;/p&gt;
 
 &lt;div class=&quot;g-plus&quot; data-action=&quot;share&quot; data-href=&quot;http://vishnun.github.io/blogs/2015/01/02/how-to-prevent-auto-links-in-gmail.html&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-url=&quot;http://vishnun.github.io/blogs/2015/01/02/how-to-prevent-auto-links-in-gmail.html&quot; data-via=&quot;vishnu_narang&quot; data-size=&quot;large&quot; data-hashtags=&quot;hack&quot;&gt;Tweet&lt;/a&gt;
+&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?&#39;http&#39;:&#39;https&#39;;if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+&#39;://platform.twitter.com/widgets.js&#39;;fjs.parentNode.insertBefore(js,fjs);}}(document, &#39;script&#39;, &#39;twitter-wjs&#39;);&lt;/script&gt;&lt;/p&gt;
+
 &lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fvishnun.github.io%2Fblogs%2F2015%2F01%2F02%2Fhow-to-prevent-auto-links-in-gmail.html&amp;amp;width&amp;amp;layout=standard&amp;amp;action=like&amp;amp;show_faces=true&amp;amp;share=true&amp;amp;height=80&amp;amp;appId=874345859272451&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; height:80px;&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
 
 &lt;!-- Add Disqus comments. --&gt;
