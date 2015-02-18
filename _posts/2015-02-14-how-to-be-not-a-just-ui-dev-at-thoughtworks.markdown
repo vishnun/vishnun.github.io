@@ -46,7 +46,7 @@ ________________________________________________________________________________
 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://vishnun.github.io/blogs/2015/02/14/how-to-be-not-a-just-ui-dev-at-thoughtworks.html" data-via="vishnu_narang" data-size="large" data-hashtags="UI">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fvishnun.github.io%2Fblogs%2F2015%2F01%2F02%2Fhow-to-prevent-auto-links-in-gmail.html&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=874345859272451" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe>
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fvishnun.github.io%2Fblogs%2F2015%2F02%2F14%2Fhow-to-be-not-a-just-ui-dev-at-thoughtworks.html&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=874345859272451" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe>
 
 
 {% include comments.html %}
