@@ -35,9 +35,25 @@ ________________________________________________________________________________
 
 <p>Lastly, it has been a rollercoaster ride and a satisfying experience, working with some of the best developers on inventive and ingenious projects here at ThoughtWorks. It was a dream company back in college and it has been a dream come true indeed.</p>
 
+
+
+
+
 <br/>
 <h4>- Vishnu Narang,</h4>
 (Not just a UI-Dev @ThoughtWorks)
+<br/>
+<br/>
+<br/>
+
+<h4>You can also read the extended version of this blog on <a href="http://www.thoughtworks.com/insights/blog/how-be-not-just-ui-dev-thoughtworks">ThoughtWorks Insights</a><h4>
+
+<a target="blank" href="http://www.thoughtworks.com/insights/blog/how-be-not-just-ui-dev-thoughtworks">
+<img src="/public/Images/how-to-be-not-just-a-ui-dev-insights.png"></img>
+</a>
+
+<br/>
+<br/>
 <br/>
 
 

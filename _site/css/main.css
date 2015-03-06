@@ -468,3 +468,7 @@ img {
 
 p, .text-justify {
   text-align: justify; }
+
+.about-me-image {
+  margin: 0 10px;
+  border: 2px solid #737373; }

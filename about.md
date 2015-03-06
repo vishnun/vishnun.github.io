@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<img src="/public/Images/me.png" width="256" height="200" align="right">
+<a target="blank" href="http://www.thoughtworks.com/profiles/vishnu-narang"><img class="about-me-image" src="/public/Images/me.png" width="256" height="200" align="right"></a>
 
 My name is Vishnu Narang. I'm an Indian living in Pune, having passion for technology and adventure sports. Soccer, biking and driving cars come next in the list.
 I write code for a living. I have been working at [ThoughtWorks Inc][Thoughtworks] (Pune Office) right after graduation from *Pune Institute of Computer Technology*.
