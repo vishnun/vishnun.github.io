@@ -6,8 +6,8 @@
 </description>
     <link>http://vishnun.github.io/</link>
     <atom:link href="http://vishnun.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Jun 2015 20:00:26 +0530</pubDate>
-    <lastBuildDate>Fri, 05 Jun 2015 20:00:26 +0530</lastBuildDate>
+    <pubDate>Fri, 05 Jun 2015 20:42:51 +0530</pubDate>
+    <lastBuildDate>Fri, 05 Jun 2015 20:42:51 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -83,7 +83,7 @@
 	  &lt;img src=&quot;http://www.bloggingways.net/wp-content/uploads/2014/07/stock-images-for-blog.jpg?3f550d&quot; alt=&quot;&quot; /&gt;
 	&lt;/div&gt;
     &lt;div class=&quot;image-container&quot;&gt;
-	  &lt;img src=&quot;http://vni.s3.amazonaws.com/121126102614979.png&quot; alt=&quot;&quot; /&gt;
+	  &lt;img id=&quot;thumbsUp&quot; src=&quot;http://vni.s3.amazonaws.com/121126102614979.png&quot; alt=&quot;&quot; /&gt;
 	&lt;/div&gt;
     &lt;div class=&quot;image-container&quot;&gt;
 	  &lt;img src=&quot;http://fc04.deviantart.net/fs18/f/2007/181/0/e/discarded_spacestuff5_by_Fune_Stock.jpg&quot; alt=&quot;&quot; /&gt;

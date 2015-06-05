@@ -47,7 +47,7 @@ categories: blogs
 	  <img src="http://www.bloggingways.net/wp-content/uploads/2014/07/stock-images-for-blog.jpg?3f550d" alt="" />
 	</div>
     <div class='image-container'>
-	  <img src="http://vni.s3.amazonaws.com/121126102614979.png" alt="" />
+	  <img id="thumbsUp" src="http://vni.s3.amazonaws.com/121126102614979.png" alt="" />
 	</div>
     <div class='image-container'>
 	  <img src="http://fc04.deviantart.net/fs18/f/2007/181/0/e/discarded_spacestuff5_by_Fune_Stock.jpg" alt="" />
