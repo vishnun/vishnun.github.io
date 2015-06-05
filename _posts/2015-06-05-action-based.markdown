@@ -6,22 +6,19 @@ comments: true
 categories: blogs
 ---
 <div class="action">
-<section class="container">
-  <div class="dropdown">
-    <select name="one" class="dropdown-select">
-      <option value="">Select…</option>
-      <option value="1">Option #1</option>
-      <option value="2">Option #2</option>
-      <option value="3">Option #3</option>
-    </select>
+  <div id="wrap">
+    <h1>Click dropdown before screenshot</h1>
+    
+    <div id="dropdown" class="ddmenu">
+      User Settings
+      <ul>
+        <li><a href="#">My Profile</a></li>
+        <li><a href="#">Friend Requests</a></li>
+        <li><a href="#">Account Settings</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Log Out</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="dropdown dropdown-dark">
-    <select name="two" class="dropdown-select">
-      <option value="">Select…</option>
-      <option value="1">Option #1</option>
-      <option value="2">Option #2</option>
-      <option value="3">Option #3</option>
-    </select>
-  </div>
-</section>
+
 <div>

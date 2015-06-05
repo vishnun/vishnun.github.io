@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://vishnun.github.io/">
   <link rel="alternate" type="application/rss+xml" title="Vishnu Narang" href="http://vishnun.github.io/feed.xml" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 </head>
 
 
@@ -176,6 +177,19 @@
         po.src = 'https://apis.google.com/js/platform.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();
+    </script>
+    <script type="text/javascript">
+      $("#dropdown").on("click", function(e){
+        e.preventDefault();
+
+        if($(this).hasClass("open")) {
+          $(this).removeClass("open");
+          $(this).children("ul").slideUp("fast");
+        } else {
+          $(this).addClass("open");
+          $(this).children("ul").slideDown("fast");
+        }
+      });
     </script>
   </body>
 

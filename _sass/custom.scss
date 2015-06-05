@@ -28,167 +28,101 @@ p, .text-justify {
 }
 
 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html { height: 101%; }
+body { background: #dde9f0 url('http://i.imgur.com/p6YhOiv.png'); font-family: Arial, Tahoma, sans-serif; font-size: 62.5%; line-height: 1; padding-bottom: 65px; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+h1 { display: block; font-size: 2.75em; line-height: 2.35em; color: #7291a5; margin-bottom: 12px; font-weight: normal; font-family: 'Oldenburg', 'Trebuchet MS', Arial, sans-serif; text-shadow: 0px 1px 1px #fff; text-align: center; }
+
+p { font-size: 1.2em; font-weight: normal; line-height: 1.35em; color: #343434; margin-bottom: 12px; }
+
+
+
 
 
 
 .action {
-  /*
- * Copyright (c) 2012-2013 Thibaut Courouble
- * http://www.cssflow.com
- * Licensed under the MIT License
- *
- * Sass/SCSS source: http://goo.gl/qEV26
- * PSD by Hemn Chawroka: http://goo.gl/nXZHJ
- */
+  min-height: 300px;
+  background-color: orange;
 
-  body {
-    font: 13px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
-    color: #404040;
-    background: #93cedf;
-  }
+  #wrap { display: block; margin: 0 auto; padding-top: 20px; }
 
-  .container {
-    margin: 80px auto;
-    width: 400px;
-    text-align: center;
-  }
 
-  .container > .dropdown {
-    margin: 0 20px;
-    vertical-align: top;
-  }
-
-  .dropdown {
-    display: inline-block;
+  /* user menu settings */
+  #dropdown {
+    display: block;
+    padding: 13px 16px;
+    width: 266px;
+    margin: 0 auto;
     position: relative;
-    overflow: hidden;
-    height: 28px;
-    width: 150px;
-    background: #f2f2f2;
-    border: 1px solid;
-    border-color: white #f7f7f7 whitesmoke;
-    border-radius: 3px;
-    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
-    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
-    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
-    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.06));
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
-  }
-
-  .dropdown:before, .dropdown:after {
-    content: '';
-    position: absolute;
-    z-index: 2;
-    top: 9px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 4px dashed;
-    border-color: #888888 transparent;
-    pointer-events: none;
-  }
-
-  .dropdown:before {
-    border-bottom-style: solid;
-    border-top: none;
-  }
-
-  .dropdown:after {
-    margin-top: 7px;
-    border-top-style: solid;
-    border-bottom: none;
-  }
-
-  .dropdown-select {
-    position: relative;
-    width: 130%;
-    margin: 0;
-    padding: 6px 8px 6px 10px;
-    height: 28px;
-    line-height: 14px;
-    font-size: 12px;
-    color: #62717a;
-    text-shadow: 0 1px white;
-    background: #f2f2f2; /* Fallback for IE 8 */
-    background: rgba(0, 0, 0, 0) !important; /* "transparent" doesn't work with Opera */
-    border: 0;
-    border-radius: 0;
-    -webkit-appearance: none;
-  }
-
-  .dropdown-select:focus {
-    z-index: 3;
-    width: 100%;
-    color: #394349;
-    outline: 2px solid #49aff2;
-    outline: 2px solid -webkit-focus-ring-color;
-    outline-offset: -2px;
-  }
-
-  .dropdown-select > option {
-    margin: 3px;
-    padding: 6px 8px;
-    text-shadow: none;
-    background: #f2f2f2;
-    border-radius: 3px;
     cursor: pointer;
+    border-left: 4px solid #739cda;
+    background: #fff;
+    font-size: 1.55em;
+    color: #656565;
+    font-weight: normal;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -ms-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+  }
+  #dropdown:hover { color: #898989; }
+
+  #dropdown.open {
+    background: #5a90e0;
+    color: #fff;
+    border-left-color: #6c6d70;
   }
 
-  /* Fix for IE 8 putting the arrows behind the select element. */
-
-  .lt-ie9 .dropdown {
-    z-index: 1;
+  #dropdown ul {
+    position: absolute;
+    top: 100%;
+    left: -4px; /* move content -4px because of container left border */
+    width: 266px;
+    padding: 5px 0px;
+    display: none;
+    border-left: 4px solid #8e9196;
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
   }
+  #dropdown ul li { font-size: 0.9em; }
 
-  .lt-ie9 .dropdown-select {
-    z-index: -1;
+  #dropdown ul li a {
+    text-decoration: none;
+    display: block;
+    color: #447dd3;
+    padding: 7px 15px;
   }
-
-  .lt-ie9 .dropdown-select:focus {
-    z-index: 3;
-  }
-
-  /* Dirty fix for Firefox adding padding where it shouldn't. */
-
-  @-moz-document url-prefix() {
-    .dropdown-select {
-      padding-left: 6px;
-    }
-  }
-
-  .dropdown-dark {
-    background: #444;
-    border-color: #111111 #0a0a0a black;
-    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
-    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
-    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
-    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
-    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
-  }
-
-  .dropdown-dark:before {
-    border-bottom-color: #aaa;
-  }
-
-  .dropdown-dark:after {
-    border-top-color: #aaa;
-  }
-
-  .dropdown-dark .dropdown-select {
-    color: #aaa;
-    text-shadow: 0 1px black;
-    background: #444;  /* Fallback for IE 8 */
-  }
-
-  .dropdown-dark .dropdown-select:focus {
-    color: #ccc;
-  }
-
-  .dropdown-dark .dropdown-select > option {
-    background: #444;
-    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+  #dropdown ul li a:hover {
+    color: #6fa0e9;
+    background: #e7f0f7;
   }
 
 }
