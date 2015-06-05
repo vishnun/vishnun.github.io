@@ -1,0 +1,19 @@
+.many-images {
+	text-align: center;
+	background: #ccc;
+	h1 {
+	    padding: 10px;
+	    font-size: 50px;
+  	}
+  	.image-container {
+	  text-align: center;
+	  margin: 20px auto;
+	  text-align: center;
+	  margin: 20px auto;
+	  width: 740px;
+	  height: 500px;
+	  img {
+	    max-width: 740px;
+	  }
+	}
+}

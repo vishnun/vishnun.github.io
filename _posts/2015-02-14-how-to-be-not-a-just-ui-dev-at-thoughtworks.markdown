@@ -25,9 +25,9 @@ ________________________________________________________________________________
 
 <p>After a year of hard work, I was ready for bigger challenges. I was once again staffed on a project as a UI-Developer. Although, this time, I was determined to learn RoR to a greater extent. Right from the first day on this new project, I had set the expectation with my Project Manager and my Tech-Lead that I won’t be doing only UI-Development and that I would also work on backend that was based on RoR. Thanks to the excellent support from the senior developers on the team, I improved much faster and soon I was ready to call myself a RoR developer. This experience helped me gain confidence and get cracking on my pet projects.</p>
 
-<p>But throughout the journey there were always some people who thought of me as "just a UI Dev". If I picked up any task outside the UI domain, there would always be someone who would pull me back from trying. “Just a UI-dev” was a very common phrase I would hear. Other UI-Devs had not challenged this. But thanks to the support from few people who believed in me, I was able to achieve my goals. Now, my designation at ThoughtWorks was - Not just a UI Dev.</p>
+<p>But throughout the journey there were always some people who thought of me as "just a UI Dev". If I picked up any task outside the UI domain, there would always be someone who would pull me back from trying. “Just a UI-Dev” was a very common phrase I would hear. Other UI-Devs had not challenged this. But thanks to the support from few people who believed in , I was able to achieve my goals. Now, my designation at ThoughtWorks was - Not just a UI Dev.</p>
 
-<p>I continued learning RoR and even played a role of “Coach” for a Rails Girls event held in ThoughtWorks Pune. That event gave my confidence a boost.</p>
+<p>I continued learning RoR and even played a role of “Coach” a Rails Girls event held in ThoughtWorks Pune. That event gave my confidence a boost.</p>
 
 <p>All this was perfectly aligned with my grand plan of being a complete developer, capable of working on front-end, backend and dev-ops. It's challenging to be good at front-end and backend both. I’m glad I chose this path for myself. It’s an exciting journey and there is a long way to go.</p>
 
@@ -54,15 +54,3 @@ ________________________________________________________________________________
 
 <br/>
 <br/>
-<br/>
-
-
-<div class="g-plus" data-action="share" data-href="http://vishnun.github.io/blogs/2015/02/14/how-to-be-not-a-just-ui-dev-at-thoughtworks.html"></div>
-
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://vishnun.github.io/blogs/2015/02/14/how-to-be-not-a-just-ui-dev-at-thoughtworks.html" data-via="vishnu_narang" data-size="large" data-hashtags="UI">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fvishnun.github.io%2Fblogs%2F2015%2F02%2F14%2Fhow-to-be-not-a-just-ui-dev-at-thoughtworks.html&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=874345859272451" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe>
-
-
-{% include comments.html %}

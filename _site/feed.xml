@@ -6,9 +6,150 @@
 </description>
     <link>http://vishnun.github.io/</link>
     <atom:link href="http://vishnun.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Mar 2015 18:23:43 +0530</pubDate>
-    <lastBuildDate>Fri, 06 Mar 2015 18:23:43 +0530</lastBuildDate>
+    <pubDate>Fri, 05 Jun 2015 19:06:13 +0530</pubDate>
+    <lastBuildDate>Fri, 05 Jun 2015 19:06:13 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Action based!</title>
+        <description>&lt;div class=&quot;action&quot;&gt;
+&lt;section class=&quot;container&quot;&gt;
+  &lt;div class=&quot;dropdown&quot;&gt;
+    &lt;select name=&quot;one&quot; class=&quot;dropdown-select&quot;&gt;
+      &lt;option value=&quot;&quot;&gt;Select…&lt;/option&gt;
+      &lt;option value=&quot;1&quot;&gt;Option #1&lt;/option&gt;
+      &lt;option value=&quot;2&quot;&gt;Option #2&lt;/option&gt;
+      &lt;option value=&quot;3&quot;&gt;Option #3&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;dropdown dropdown-dark&quot;&gt;
+    &lt;select name=&quot;two&quot; class=&quot;dropdown-select&quot;&gt;
+      &lt;option value=&quot;&quot;&gt;Select…&lt;/option&gt;
+      &lt;option value=&quot;1&quot;&gt;Option #1&lt;/option&gt;
+      &lt;option value=&quot;2&quot;&gt;Option #2&lt;/option&gt;
+      &lt;option value=&quot;3&quot;&gt;Option #3&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;div&gt;
+&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Thu, 07 May 2015 01:17:47 +0530</pubDate>
+        <link>http://vishnun.github.io/blogs/2015/05/07/action-based.html</link>
+        <guid isPermaLink="true">http://vishnun.github.io/blogs/2015/05/07/action-based.html</guid>
+        
+        
+        <category>blogs</category>
+        
+      </item>
+    
+      <item>
+        <title>Long page with many images!</title>
+        <description>&lt;div class=&quot;many-images&quot;&gt;
+		
+	&lt;div class=&quot;image-container&quot;&gt;
+		&lt;img src=&quot;http://indianapublicmedia.org/support/files/2011/09/04_03_1-Stock-Market-Prices_web.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;image-container&quot;&gt;
+		&lt;img src=&quot;http://www.somebodymarketing.com/wp-content/uploads/2013/05/Stock-Dock-House.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://aidsresearch.org/images/uploads/Stock_Gift_Pix.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+	
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://fc01.deviantart.net/fs17/f/2007/129/7/4/Stock_032__by_enchanted_stock.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+	    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://philfaqs.com//wp-content/uploads/2012/09/earnings-yield-stock-valuation.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://netdna.webdesignerdepot.com/uploads/2008/12/what-is-stock-photo.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+	    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img id=&quot;cat&quot; src=&quot;http://fc01.deviantart.net/fs15/i/2007/011/7/1/Kitten_Stock___Looking_Scared_by_Gracies_Stock.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://www.fortunestockalerts.com/wp-content/themes/Template1/img/pennyChart.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://nepseforum.com/wp-content/uploads/revslider/Avada_Full_Width/stock-chart-blue.png&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://beginners-investing.com/images/learn-how-to-invest.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://www.pareshsharma.in/images/Business-Stock-Market2.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://www.bloggingways.net/wp-content/uploads/2014/07/stock-images-for-blog.jpg?3f550d&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://vni.s3.amazonaws.com/121126102614979.png&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://fc04.deviantart.net/fs18/f/2007/181/0/e/discarded_spacestuff5_by_Fune_Stock.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 15 Feb 2015 01:17:47 +0530</pubDate>
+        <link>http://vishnun.github.io/blogs/2015/02/15/many-images-on-page.html</link>
+        <guid isPermaLink="true">http://vishnun.github.io/blogs/2015/02/15/many-images-on-page.html</guid>
+        
+        
+        <category>blogs</category>
+        
+      </item>
+    
+      <item>
+        <title>large-page!</title>
+        <description>&lt;div class=&quot;many-images&quot;&gt;
+	
+	&lt;div class=&quot;image-container&quot; style=&quot;background-image: url(http://upload.wikimedia.org/wikipedia/commons/4/4e/Pleiades_large.jpg);&quot;&gt;	
+	&lt;/div&gt;
+
+	&lt;div id=&quot;selector&quot; class=&quot;image-container&quot; style=&quot;background-image: url(http://goes.gsfc.nasa.gov/pub/goes/100406_GOES15_firstvis_large.jpg);&quot;&gt;	
+  	&lt;/div&gt;
+  	
+   &lt;div class=&quot;image-container&quot; style=&quot;background-image: url(http://upload.wikimedia.org/wikipedia/commons/c/cc/ESC_large_ISS022_ISS022-E-11387-edit_01.JPG);&quot;&gt; 
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot; style=&quot;background-image: url(http://wwwstaff.ari.uni-heidelberg.de/gaia/gallery/GR/gr0283-01.artistic-Gaia-Galaxy-large.jpg);&quot;&gt;
+	&lt;/div&gt;
+	    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img id=&quot;selector&quot; src=&quot;http://www.highreshdwallpapers.com/wp-content/uploads/2011/09/Large-Format-HD-Wallpaper.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://jeremydouglass.com/gamertextually/images/gt_snowflake_tags-2-ach-large.png&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://wallpapers.free-review.net/wallpapers/15/The_brown_bear_-_large_bear.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://beginners-investing.com/images/learn-how-to-invest.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://sd.keepcalm-o-matic.co.uk/i/keep-calm-and-continue-testing-46.png&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://www.bloggingways.net/wp-content/uploads/2014/07/stock-images-for-blog.jpg?3f550d&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://vni.s3.amazonaws.com/121126102614979.png&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+    &lt;div class=&quot;image-container&quot;&gt;
+	  &lt;img src=&quot;http://fc04.deviantart.net/fs18/f/2007/181/0/e/discarded_spacestuff5_by_Fune_Stock.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 15 Feb 2015 01:17:47 +0530</pubDate>
+        <link>http://vishnun.github.io/blogs/2015/02/15/large-page.html</link>
+        <guid isPermaLink="true">http://vishnun.github.io/blogs/2015/02/15/large-page.html</guid>
+        
+        
+        <category>blogs</category>
+        
+      </item>
     
       <item>
         <title>How to be &#39;NOT JUST A UI DEV&#39; at ThoughtWorks!</title>
@@ -31,9 +172,9 @@ I used to be average in programming when I started but improved a lot by partici
 
 &lt;p&gt;After a year of hard work, I was ready for bigger challenges. I was once again staffed on a project as a UI-Developer. Although, this time, I was determined to learn RoR to a greater extent. Right from the first day on this new project, I had set the expectation with my Project Manager and my Tech-Lead that I won’t be doing only UI-Development and that I would also work on backend that was based on RoR. Thanks to the excellent support from the senior developers on the team, I improved much faster and soon I was ready to call myself a RoR developer. This experience helped me gain confidence and get cracking on my pet projects.&lt;/p&gt;
 
-&lt;p&gt;But throughout the journey there were always some people who thought of me as &quot;just a UI Dev&quot;. If I picked up any task outside the UI domain, there would always be someone who would pull me back from trying. “Just a UI-dev” was a very common phrase I would hear. Other UI-Devs had not challenged this. But thanks to the support from few people who believed in me, I was able to achieve my goals. Now, my designation at ThoughtWorks was - Not just a UI Dev.&lt;/p&gt;
+&lt;p&gt;But throughout the journey there were always some people who thought of me as &quot;just a UI Dev&quot;. If I picked up any task outside the UI domain, there would always be someone who would pull me back from trying. “Just a UI-Dev” was a very common phrase I would hear. Other UI-Devs had not challenged this. But thanks to the support from few people who believed in , I was able to achieve my goals. Now, my designation at ThoughtWorks was - Not just a UI Dev.&lt;/p&gt;
 
-&lt;p&gt;I continued learning RoR and even played a role of “Coach” for a Rails Girls event held in ThoughtWorks Pune. That event gave my confidence a boost.&lt;/p&gt;
+&lt;p&gt;I continued learning RoR and even played a role of “Coach” a Rails Girls event held in ThoughtWorks Pune. That event gave my confidence a boost.&lt;/p&gt;
 
 &lt;p&gt;All this was perfectly aligned with my grand plan of being a complete developer, capable of working on front-end, backend and dev-ops. It&#39;s challenging to be good at front-end and backend both. I’m glad I chose this path for myself. It’s an exciting journey and there is a long way to go.&lt;/p&gt;
 
@@ -60,34 +201,6 @@ I used to be average in programming when I started but improved a lot by partici
 
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;
-
-
-&lt;div class=&quot;g-plus&quot; data-action=&quot;share&quot; data-href=&quot;http://vishnun.github.io/blogs/2015/02/14/how-to-be-not-a-just-ui-dev-at-thoughtworks.html&quot;&gt;&lt;/div&gt;
-
-&lt;a href=&quot;https://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-url=&quot;http://vishnun.github.io/blogs/2015/02/14/how-to-be-not-a-just-ui-dev-at-thoughtworks.html&quot; data-via=&quot;vishnu_narang&quot; data-size=&quot;large&quot; data-hashtags=&quot;UI&quot;&gt;Tweet&lt;/a&gt;
-&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?&#39;http&#39;:&#39;https&#39;;if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+&#39;://platform.twitter.com/widgets.js&#39;;fjs.parentNode.insertBefore(js,fjs);}}(document, &#39;script&#39;, &#39;twitter-wjs&#39;);&lt;/script&gt;
-
-&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fvishnun.github.io%2Fblogs%2F2015%2F02%2F14%2Fhow-to-be-not-a-just-ui-dev-at-thoughtworks.html&amp;amp;width&amp;amp;layout=standard&amp;amp;action=like&amp;amp;show_faces=true&amp;amp;share=true&amp;amp;height=80&amp;amp;appId=874345859272451&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; height:80px;&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
-
-
-
-&lt;!-- Add Disqus comments. --&gt;
-&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = &#39;HackBlog&#39;; // required: replace example with your forum shortname
-    var disqus_identifier = &quot;/blogs/2015/02/15/how-to-be-not-a-just-ui-dev-at-thoughtworks.html&quot;;
-
-    /* * * DON&#39;T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
-        dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
-        (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;
 &lt;/h4&gt;&lt;/h4&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 15 Feb 2015 01:17:47 +0530</pubDate>
