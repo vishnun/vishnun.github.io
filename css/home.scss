@@ -3,7 +3,7 @@
 ---
 @charset "utf-8";
 
-@import "libs/animate";
+//@import "libs/animate";
 @import "meyer-reset";
 @import "bourbon/bourbon";
 @import "neat/neat";
@@ -39,54 +39,54 @@
 }
 
 .home {
-  @import "home/header";
-  font-family: 'Times new roman', sans-serif;
-  .logo {
-    font-family: 'Flamenco', cursive;
-    font-size: 35px;
-    line-height: $navigation-height;
-    color: $white;
-  }
-
-  #intro {
-    h1, h2, p {
-      margin-bottom: 0;
-    }
-    color: $off-white;
-    background-image: url("/images/me_bg.jpg");
-    min-height: 580px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0% 32%;
-    background-blend-mode: overlay;
-    background-color: rgba(0, 0, 0, 0.3);
-    hr {
-      border: 1px inset $white;
-    }
-    p {
-      font-size: modular-scale(1);
-    }
-
-    @include media($tablet) {
-      background-position: 70% 32%;
-      p {
-        font-size: modular-scale(0);
-      }
-    }
-    .banner {
-      position: absolute;
-      bottom: 10em;
-      width: 50%;
-      left: 5em;
-      text-align: center;
-      @include media($tablet) {
-        bottom: 5em;
-        width: 80%;
-        left: 10%;
-      }
-    }
-
-  }
+  //@import "home/header";
+  //font-family: 'Times new roman', sans-serif;
+  //.logo {
+  //  font-family: 'Flamenco', cursive;
+  //  font-size: 35px;
+  //  line-height: $navigation-height;
+  //  color: $white;
+  //}
+  //
+  //#intro {
+  //  h1, h2, p {
+  //    margin-bottom: 0;
+  //  }
+  //  color: $off-white;
+  //  background-image: url("/images/me_bg.jpg");
+  //  min-height: 580px;
+  //  background-size: cover;
+  //  background-repeat: no-repeat;
+  //  background-position: 0% 32%;
+  //  background-blend-mode: overlay;
+  //  background-color: rgba(0, 0, 0, 0.3);
+  //  hr {
+  //    border: 1px inset $white;
+  //  }
+  //  p {
+  //    font-size: modular-scale(1);
+  //  }
+  //
+  //  @include media($tablet) {
+  //    background-position: 70% 32%;
+  //    p {
+  //      font-size: modular-scale(0);
+  //    }
+  //  }
+  //  .banner {
+  //    position: absolute;
+  //    bottom: 10em;
+  //    width: 50%;
+  //    left: 5em;
+  //    text-align: center;
+  //    @include media($tablet) {
+  //      bottom: 5em;
+  //      width: 80%;
+  //      left: 10%;
+  //    }
+  //  }
+  //
+  //}
 
   #what-i-do {
     @include sectionTitle();
