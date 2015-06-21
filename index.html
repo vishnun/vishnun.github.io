@@ -1,23 +1,498 @@
 ---
-layout: default
+layout: home
+body_class: home
+title: Vishnu Narang
+html_title: vishnu
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<section id="intro" class="intro">
+    <header class="navigation" role="banner">
+        <div class="navigation-wrapper">
+            <a href="#" class="logo wow jello animated">V.N.</a>
+            <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+            <nav role="navigation">
+                <ul id="js-navigation-menu" class="navigation-menu show">
+                    <li class="nav-link wow rubberBand animated" data-wow-delay="1s"><a href="/blogs">Blogs</a></li>
+                    <!-- <li class="nav-link more"><a href="javascript:void(0)">More</a>
+                      <ul class="submenu">
+                        <li><a href="javascript:void(0)">Submenu Item</a></li>
+                        <li><a href="javascript:void(0)">Another Item</a></li>
+                        <li class="more"><a href="javascript:void(0)">Item with submenu</a>
+                          <ul class="submenu">
+                            <li><a href="javascript:void(0)">Sub-submenu Item</a></li>
+                            <li><a href="javascript:void(0)">Another Item</a></li>
+                          </ul>
+                        </li>
+                        <li class="more"><a href="javascript:void(0)">Another submenu</a>
+                          <ul class="submenu">
+                            <li><a href="javascript:void(0)">Sub-submenu</a></li>
+                            <li><a href="javascript:void(0)">An Item</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner wow fadeInLeft animated" data-wow-delay="0.5s">
+        <div class="container">
+            <div class="text-center">
+                <h2>Hi!</h2>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <h1>I am Vishnu Narang</h1>
+                <hr>
+                <p>
+                    An Application Developer at heart aiming to be full stack developer.
+                </p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+                <p>Curious and Adventurous is what defines me best.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<section id="what-i-do">
+    <h1 class="text-center wow fadeInUp animated" data-wow-delay="0.5s">What I do?</h1>
 
-</div>
+    <p class="text-center wow fadeInUp animated" data-wow-delay="0.5s">Frontend and beyond. I try my best to be multi
+        skilled software developer still learning from my experiences.</p>
+    <ul class="bullets">
+        <li class="bullet wow fadeInLeft animated">
+            <div class="bullet-icon bullet-icon-1">
+                <i class="fa fa-html5"></i>
+            </div>
+            <h2>Front-End</h2>
+
+            <div class="bullet-content">
+                <p>
+                    Front-end or User Interface is one of the most important aspect of any application. No matter how
+                    fast the other systems are, the front-end decides the usability of any application. It's important
+                    for front-end developers like me to stay up to date with the latest front-end technologies and best
+                    practices. I've been working on front-end since a few years. I've gotten good at it but the learning
+                    never stops.
+                </p>
+            </div>
+        </li>
+        <li class="bullet wow fadeInUp animated">
+            <div class="bullet-icon bullet-icon-2">
+                <i class="fa fa-code"></i>
+            </div>
+            <h2>Backend</h2>
+
+            <div class="bullet-content">
+                <p>
+                    If you thought front-end needed a creative mind, I have to admit that backend requires just as much
+                    creativity but in a different way. Writing clean and flexible code and getting the business logic
+                    right is critical. Without a solid backend system giving fast respones, frontend fails to keep the
+                    user engaged. I started my backend journey with JAVA and moved on to Ruby on Rails. RoR experience
+                    has been amazing. I aspire to learn Scala next.
+                </p>
+            </div>
+        </li>
+        <li class="bullet wow fadeInUp animated">
+            <div class="bullet-icon bullet-icon-3">
+                <i class="fa fa-desktop"></i>
+            </div>
+            <h2>UX</h2>
+
+            <div class="bullet-content">
+                <p>
+                    A good front-end developer needs to have at least some basic understanding of what good user
+                    experience means. I'm probably not that great at UX, but over the last couple of years, i've tried
+                    to learn from fellow UX experts of what it means to have UX skills. Whenever possible, I design an
+                    interface for my self learning and also sometimes at work too.
+                </p>
+            </div>
+        </li>
+        <li class="bullet wow fadeInRight animated">
+            <div class="bullet-icon bullet-icon-3">
+                <i class="fa fa-cogs"></i>
+            </div>
+            <h2>Devops</h2>
+
+            <div class="bullet-content">
+                <p>
+                    What good is an application with great backend and front-end if one can't get it to the users. Like
+                    anything else, I find devops an important skill for everyone who want's to build end to end systems.
+                    I've not dived into devops much yet. I've taken my first step by attending meetup's and sessions
+                    about Devops tools like Chef and Ansible. It's an exciting field and I'm looking forward to learn
+                    more.
+                </p>
+            </div>
+        </li>
+    </ul>
+    <hr/>
+</section>
+<section id="programming-quotes">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center wow animated zoomIn">Few programming related quotes I try to take seriously..</h2>
+            <br/>
+
+            <div class="comment wow fadeInRight animated">
+                <div class="comment-image">
+                    <i class="fa fa-quote-left"></i>
+                </div>
+                <div class="comment-content">
+                    <p>Any fool can write code that a computer can understand. Good programmers write code that humans
+                        can understand.</p>
+
+                    <p class="comment-detail">- Martin Fowler</p>
+                </div>
+            </div>
+
+            <div class="comment wow fadeInRight animated">
+                <div class="comment-image">
+                    <i class="fa fa-quote-left"></i>
+                </div>
+                <div class="comment-content">
+                    <p>Always code as if the guy who ends up maintaining your code will be a violent psychopath who
+                        knows where you live.</p>
+
+                    <p class="comment-detail">- Martin Golding</p>
+                </div>
+            </div>
+
+            <div class="comment wow fadeInRight animated">
+                <div class="comment-image">
+                    <i class="fa fa-quote-left"></i>
+                </div>
+                <div class="comment-content">
+                    <p>
+                        There are two ways of constructing a software design: One way is to make it so simple that there
+                        are obviously no deficiencies, and the other way is to make it so complicated that there are no
+                        obvious deficiencies. The first method is far more difficult.
+                    </p>
+
+                    <p class="comment-detail">- C.A.R. Hoare</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<hr/>
+
+<section id="skills">
+    <h1 class="text-center wow bounceInUp animated">My Skills</h1>
+
+    <p class="text-center  wow bounceInUp animated">
+        I enjoy programming. My goal is to be an end to end, full stack developer capable of working at any level.
+    </p>
+
+    <div class="container">
+        <div class="row">
+            <div class="span-6 m-span-12 wow fadeInLeft animated">
+                <div><span><strong>HTML</strong></span><span class="pull-right"><strong>85%</strong></span></div>
+                <div class="progress-bar">
+                    <span class="meter" style="width: 85%"></span>
+                </div>
+                <div>
+                    <p>
+                        Whenever writing markup comes into play, I give a lot of importance to semantics. I try to
+                        separate the Content from presentation and keep the markup simple. I still need to learn the
+                        advanced features that HTML-5 brings into the fold.
+                    </p>
+                </div>
+            </div>
+            <div class="span-6 m-span-12 wow fadeInRight animated">
+                <div><span><strong>CSS</strong></span><span class="pull-right"><strong>85%</strong></span></div>
+                <div class="progress-bar">
+                    <span class="meter" style="width: 85%"></span>
+                </div>
+                <div>
+                    <p>
+                        CSS is what brings the page alive in my opinion. It's what makes the page look beautiful. Not
+                        many people posses good CSS skills. Also, keeping the CSS code to minimum is very important for
+                        performance in the long run as i've learnt from my recent experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span-6 m-span-12 wow fadeInLeft animated">
+                <div><span><strong>JAVASCRIPT</strong></span><span class="pull-right"><strong>75%</strong></span></div>
+                <div class="progress-bar">
+                    <span class="meter" style="width: 75%"></span>
+                </div>
+                <div>
+                    <p>
+                        Javascript has evolved a lot. I use it as a first class language. As Douglas Crockford says it,
+                        Javascript is <a href="http://javascript.crockford.com/javascript.html">The World's Most
+                        Misunderstood Programming Language</a>. It's one language for everything (client side and server
+                        side). I'm still learning a lot about it.
+                    </p>
+                </div>
+            </div>
+            <div class="span-6 m-span-12 wow fadeInRight animated">
+                <div><span><strong>RUBY ON RAILS</strong></span><span class="pull-right"><strong>60%</strong></span>
+                </div>
+                <div class="progress-bar">
+                    <span class="meter" style="width: 60%"></span>
+                </div>
+                <div>
+                    <p>
+                        Ruby on Rails is one of the best platforms to build a website in no time. It's dynamic nature
+                        can be tricky but it's very powerful. I've enjoyed my time working on a RoR project for a year.
+                        It's still loved by
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span-6 m-span-12 wow fadeInLeft animated">
+                <div><span><strong>PREPROCESSORS</strong></span><span class="pull-right"><strong>90%</strong></span>
+                </div>
+                <div class="progress-bar">
+                    <span class="meter" style="width: 90%"></span>
+                </div>
+                <div>
+                    <p>
+                        Writing vanila CSS or HTML can slow you down sometimes. That's where preprocessors like SASS,
+                        LESS, HAML, SLIM, JADE etc. come to rescue. It helps a lot to increase productivity. I've used
+                        these extensively.
+                    </p>
+                </div>
+            </div>
+            <div class="span-6 m-span-12 wow fadeInRight animated">
+                <div><span><strong>FRONTEND PERFORMANCE</strong></span><span
+                        class="pull-right"><strong>80%</strong></span></div>
+                <div class="progress-bar">
+                    <span class="meter" style="width: 80%"></span>
+                </div>
+                <div>
+                    <p>
+                        One of the most important skills for any frontend developer is the ability to keep the
+                        performance of client side code at it's best. I've had some amazing experiences in recent times
+                        working explicitely on client side performance.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span-6 m-span-12 wow fadeInLeft animated">
+                <div><span><strong>UX</strong></span><span class="pull-right"><strong>40%</strong></span></div>
+                <div class="progress-bar">
+                    <span class="meter" style="width: 40%"></span>
+                </div>
+                <div>
+                    <p>
+                        User experience is an art in some sense. It's vital for any application to have a simple and
+                        efficient user interface. I try my hand at it from time to time. My user journeys are receiving
+                        some positive responses.
+                    </p>
+                </div>
+            </div>
+
+            <div class="span-6 m-span-12 wow fadeInRight animated">
+                <div><span><strong>ANDROID</strong></span><span class="pull-right"><strong>30%</strong></span></div>
+                <div class="progress-bar">
+                    <span class="meter" style="width: 30%"></span>
+                </div>
+                <div>
+                    <p>
+                        Mobile apps are the future. With the boom of internet of things, I am very excited to give
+                        android development a shot. I've mostly done basics and I'm still in self learning mode. It's
+                        interesting.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span-6 m-span-12 wow fadeInLeft animated">
+                <div><span><strong>PUBLIC SPEAKING</strong></span><span class="pull-right"><strong>40%</strong></span>
+                </div>
+                <div class="progress-bar">
+                    <span class="meter" style="width: 40%"></span>
+                </div>
+                <div>
+                    <p>
+                        I've not had an opportunity to speak at international conferences, but I've had a few
+                        experiences as a speaker in ThoughtWorks conferences like X-Conf, VodQA, Geek Night, etc.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr/>
+
+<section id="my-journey">
+    <h1 class="text-center">My Journey so far..</h1>
+
+    <div class="timeline container">
+        <div class="timeline-block evenHeights clearfix span-7 t-span-12">
+            <div class="timeline-img wow zoomIn animated">
+                <img src="/images/education.svg.png">
+            </div>
+            <div class="timeline-content wow slideInLeft animated">
+                <h3><strong>Under Graduation: May 2012</strong></h3>
+
+                <p>
+                    I completed my undergraduation from Pune Institute of Computer Science in Information Technology. I
+                    achieved First Class with Distinction throughout. My favourite subjects were Computer Networks,
+                    Algorithms, Data Structures and Operating Systems.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-block evenHeights clearfix span-7 t-span-12">
+            <div class="timeline-img wow zoomIn animated">
+                <img src="/images/tw-logo.png">
+            </div>
+            <div class="timeline-content wow slideInRight animated">
+                <h3><strong>Joined ThoughtWorks: July 2012</strong></h3>
+
+                <p>
+                    After undergrad, I joined ThoughtWorks (TW) as an application developer. I was one of the chosen 4
+                    out of over 300 students to get selected. ThoughtWorks was a perfect start to my career because at
+                    ThoughtWorks, I get to learn something new every single day. It's a place where you can <strong>never</strong>
+                    be the smartest person in the room.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-block evenHeights clearfix span-7 t-span-12">
+            <div class="timeline-img wow zoomIn animated">
+                <img src="/images/frontend.png">
+            </div>
+            <div class="timeline-content wow slideInLeft animated">
+                <h3><strong>First Frontend Experience: April 2013</strong></h3>
+
+                <p>
+                    Soon after joining ThoughtWorks I learnt frontend skills and got staffed as the only frontend
+                    developer for a client project in TW-Delhi. It's where I lead the frontend development on my own. It
+                    was a small team and I got to learn <strong>a hell lot</strong> from that experience.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-block evenHeights clearfix span-7 t-span-12">
+            <div class="timeline-img wow zoomIn animated">
+                <img src="/images/ror.png" style="background-color: #E7235E">
+            </div>
+            <div class="timeline-content wow slideInRight animated">
+                <h3><strong>Added Ruby on Rails to my skills: Oct 2013 </strong></h3>
+
+                <p>
+                    My burning desire to be a full stack developer took a great turn when I started working on RoR for a
+                    big project. Originally staffed as a frontend developer, it was difficult to get the right support
+                    and work on both frontend and backend. I learnt basic RoR on my own and then got support from my
+                    team and a few months later was able to call my self a RoR developer.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-block evenHeights clearfix span-7 t-span-12">
+            <div class="timeline-img wow zoomIn animated">
+                <img src="/images/railsgirls.png" style="background-color: orangered">
+            </div>
+            <div class="timeline-content wow slideInLeft animated">
+                <h3><strong>Rails Girls coach: December 2014</strong></h3>
+
+                <p>
+                    Owing to my learning on the RoR project, it was time to give back to the community. I signed up as a
+                    <a href="http://railsgirls.com/pune">Rails Girls</a> coach. The event took place in ThoughtWorks,
+                    Pune. In about 3 hours me and my team of trainees deployed a working feedback application to Heroku.
+                    It got even better for me when I received extremely positive feedback from my trainee.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-block evenHeights clearfix span-7 t-span-12">
+            <div class="timeline-img wow zoomIn animated">
+                <img src="/images/rtl.png">
+            </div>
+            <div class="timeline-content wow slideInRight animated">
+                <h3><strong>Building "Right To Left": March 2015</strong></h3>
+
+                <p>
+                    A multi-national, multi-locale marketing website with thousands of pages. We had to support the
+                    entire website in Middle East countries and support Right To Left languages like Arabic. This was
+                    probably the first time ever in ThoughtWorks that we got this unique requirement. Learnt a lot about
+                    I18 (internationalization). I also worked on Performance of the website which was most challenging.
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section id="home-footer" class="clearfix">
+    <h1 class="text-center">GET IN TOUCH</h1>
+
+    <div class="container row">
+        <div class="social-links span-6 m-span-12">
+
+            <div class="contact-left wow fadeInRight animated" data-wow-delay="0.4s">
+                <ul class="clearfix">
+                    <li><a href="http://www.twitter.com/vishnu_narang" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                        <span>Twitter</span></a>
+                    </li>
+                    <li><a href="http://www.facebook.com/vishnu.narang" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    </li>
+                    <li><a href="https://plus.google.com/u/0/+vishnunarang/posts/p/pub" target="_blank">
+                        <i class="fa fa-google-plus"></i>
+                        <span>Google +</span></a>
+                    </li>
+                    <li><a href="https://github.com/vishnun" target="_blank">
+                        <i class="fa fa-github"></i>
+                        <span>GitHub</span></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/vishnunarang" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                        <span>Linkedin</span></a></li>
+                    <li><a href="https://www.pinterest.com/vishnunarang/" target="_blank">
+                        <i class="fa fa-pinterest"></i>
+                        <span>Pinterest</span></a>
+                    </li>
+                    <li><a href="mailto:vishnunarang2000@gmail.com" target="_blank">
+                        <i class="fa fa-envelope"></i>
+                        <span>Mail</span></a>
+                    </li>
+                    <li><a href="skype:vishnu.narang?chat" target="_blank">
+                        <i class="fa fa-skype"></i>
+                        <span>Skype</span></a>
+                    </li>
+                    <li><a href="tel:+7875757780" target="_blank">
+                        <i class="fa fa-phone"></i>
+                        <span>Phone</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="email-form span-4 m-span-12">
+            <form action="MAILTO:vishnunarang2000@gmail.com" method="post" enctype="text/plain" data-wow-delay="0.4s" class="wow fadeInLeft animated">
+                <div class="form-input span-12">
+                    <label for="name" class="sr-only">Name:</label>
+                    <input type="text" name="name" placeholder="Name">
+                </div>
+                <div class="form-input span-12">
+                    <label for="mail" class="sr-only">Email</label>
+                    <input type="text" name="mail" placeholder="Email id">
+                </div>
+                <div class="form-input span-12">
+                    <label for="comment" class="sr-only">Comment:</label>
+                    <textarea type="text" name="comment" placeholder="Your message." rows="5"></textarea>
+                </div>
+                <div class="form-submit span-12">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
