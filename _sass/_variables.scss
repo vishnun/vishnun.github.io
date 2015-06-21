@@ -1,3 +1,8 @@
+$mobile: new-breakpoint(max-width 480px 12);
+$tablet: new-breakpoint(max-width 768px 12);
+$big-desktop: new-breakpoint(min-width 1024px 12);
+$desktop: new-breakpoint(min-width 768px 12);
+
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;

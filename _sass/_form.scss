@@ -12,6 +12,7 @@ form {
     }
   }
   .form-submit {
+    margin-top: -10px;
     input[type=submit] {
       min-width: 150px;
       background-color: rgb(103, 213, 253);
@@ -21,6 +22,9 @@ form {
       font-size: 1em;
       color: black;
       box-shadow: 1px 1px 2px 0px rgb(43, 193, 247);
+      @include media($mobile) {
+        min-width: 100%;
+      }
     }
   }
 }
