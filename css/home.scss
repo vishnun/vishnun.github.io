@@ -1,6 +1,9 @@
 ---
 #
 ---
+@charset "utf-8";
+
+@import "libs/animate";
 @import "meyer-reset";
 @import "bourbon/bourbon";
 @import "neat/neat";
@@ -9,7 +12,6 @@
 @import "base";
 @import "form";
 
-@charset "utf-8";
 
 @mixin sectionTitle() {
   h1 {
