@@ -22,7 +22,7 @@ $scale: 0.6;			  // icon scale 68/68 default
   width: 68px;
   // two masks because... browser support.
   mask: url(#mask);
-  -webkit-mask-box-image: url(https://raygun.io/upload/mask.svg);
+  -webkit-mask-box-image: url('images/mask.svg');
 }
 
 .animate-path {
