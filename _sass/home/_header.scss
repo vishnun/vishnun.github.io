@@ -51,7 +51,7 @@
 	    font-weight: 700;
 	    line-height: $navigation-height;
 	    margin: 0;
-	    padding-right: 1em;
+	    padding-right: 0.5em;
 	    text-transform: uppercase;
 
 	    @include media ($horizontal-bar-mode) {
