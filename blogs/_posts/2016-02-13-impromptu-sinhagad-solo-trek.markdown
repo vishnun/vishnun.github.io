@@ -274,7 +274,7 @@ I love trekking ...
 <hr>
 <div class="g-plus" data-action="share" data-href="http://vishnun.github.io/blogs/2016/02/13/impromptu-sinhagad-solo-trek.html"></div>
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://vishnun.github.io/blogs/2016/02/13/impromptu-sinhagad-solo-trek.html" data-via="vishnu_narang" data-size="large" data-hashtags="hack">Tweet</a>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://vishnun.github.io/blogs/2016/02/13/impromptu-sinhagad-solo-trek.html" data-via="vishnu_narang" data-size="large" data-hashtags="trekking">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fvishnun.github.io%2Fblogs%2F2016%2F02%2F13%2Fimpromptu-sinhagad-solo-trek.html&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=874345859272451" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe>
