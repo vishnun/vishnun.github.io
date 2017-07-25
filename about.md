@@ -5,13 +5,7 @@ title: About
 
 <a target="blank" href="http://www.thoughtworks.com/profiles/vishnu-narang"><img class="about-me-image" src="/public/Images/me.png" width="256" height="200" align="right"></a>
 
-My name is Vishnu Narang. I'm an Indian living in Pune, having passion for technology and adventure sports. Soccer, biking and driving cars come next in the list.
-I write code for a living. I have been working at [ThoughtWorks Inc][Thoughtworks] (Pune Office) right after graduation from *Pune Institute of Computer Technology*.
-
-Lately **Internet of Things** has sparked a deep interest. Learning more about it technically.
-
-
-[ThoughtWorks]: http://www.thoughtworks.com/
+My name is Vishnu Narang. Always ready to learn something new to get the job done. Curious and passinate about technology and the role it can play to make the world a better place.
 
 For more details view <a href="http://in.linkedin.com/in/vishnunarang"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" style="border: none;" width="160" height="33" border="0" alt="View vishnu narang's profile on LinkedIn"></a>
 

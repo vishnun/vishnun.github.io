@@ -2,10 +2,7 @@
 title: Vishnu Narang
 email: vishnunarang2000@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Vibrant and curious as a developer at ThoughtWorks.
-  I'm interested in smart devices and the whole idea of Internet Of Things.
-  Using technology to make a fundamental difference in people's life is what I always strive to do.
-  My aim is to learn something new every day and use it to the best of my abilities.
+  A full-stack developer, passionate and curious to learn new technologies.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://vishnun.github.io" # the base hostname & protocol for your site
 twitter_username: vishnu_narang

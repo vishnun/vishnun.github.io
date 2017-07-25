@@ -89,6 +89,11 @@
   //
   //}
 
+  .content {
+    max-width: 1024px;
+    margin: auto;
+  }
+
   #what-i-do {
     @include sectionTitle();
 
