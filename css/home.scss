@@ -40,6 +40,9 @@
     @import "home/icon-bullets";
     padding: 20px 10px;
     @include retina-image("/images/bg-pattern", 11px, jpeg);
+    .bullets {
+      max-width: 1024px;
+    }
   }
 
   #programming-quotes {
