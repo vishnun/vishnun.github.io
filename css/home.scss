@@ -35,83 +35,25 @@
 }
 
 .home {
-
-  //@import "home/header";
-  //font-family: 'Times new roman', sans-serif;
-  //.logo {
-  //  font-family: 'Flamenco', cursive;
-  //  font-size: 35px;
-  //  line-height: $navigation-height;
-  //  color: $white;
-  //}
-  //
-  //#intro {
-  //  h1, h2, p {
-  //    margin-bottom: 0;
-  //  }
-  //  overflow: hidden;
-  //  min-height: 480px;
-  //  position: relative;
-  //  color: $off-white;
-  //  @include retina-image("/images/intro-bg", cover, jpg);
-  //  background-repeat: no-repeat;
-  //  background-position: 0% 100%;
-  //  background-blend-mode: overlay;
-  //  background-color: rgba(0, 0, 0, 0.5);
-  //  @include media($mobile) {
-  //    @include retina-image("/images/intro-mobile-bg", cover, jpg);
-  //  }
-  //  hr {
-  //    border: 1px inset $white;
-  //  }
-  //  p {
-  //    font-size: modular-scale(1);
-  //  }
-  //
-  //  @include media($tablet) {
-  //    background-position: 80% 32%;
-  //    p {
-  //      font-size: modular-scale(0);
-  //    }
-  //  }
-  //  .banner {
-  //    position: absolute;
-  //    bottom: 10em;
-  //    width: 50%;
-  //    left: 5em;
-  //    text-align: center;
-  //    @include media($tablet) {
-  //      bottom: 5em;
-  //      width: 80%;
-  //      left: 10%;
-  //    }
-  //  }
-  //
-  //}
-
-  .content {
-    max-width: 1024px;
-    margin: auto;
-  }
-
-  #what-i-do {
-    @include sectionTitle();
-
-    @import "home/icon-bullets";
-  }
-  #programming-quotes {
-    @import "home/comments";
-  }
   #skills {
     @include sectionTitle();
-    @import "home/progress_bar";
-    @include media($tablet) {
-      padding: 10px;
+    @import "home/icon-bullets";
+    padding: 20px 10px;
+    @include retina-image("/images/bg-pattern", 11px, jpeg);
+  }
+
+  #programming-quotes {
+    .container {
+      max-width: 1024px;
+      margin: auto;
     }
+    background-color: #e8e8e8;
+    @import "home/comments";
   }
 
   #my-journey {
     margin-bottom: 135px;
+    padding-top: 20px;
     .timeline {
       @include pad();
       position: relative;
