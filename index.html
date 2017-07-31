@@ -127,115 +127,25 @@ html_title: vishnu
     </ul>
   </section>
 </div>
+
 <section id="my-journey">
   <h2 class="text-center">My Journey so far..</h2>
   <div class="timeline container">
+  {% for milestone in site.data.timeline %}
     <div class="timeline-block evenHeights clearfix span-7 t-span-12">
       <div class="timeline-img wow zoomIn animated">
-        <img class="timeline-icon" src="/images/education.svg.png">
+        {% if milestone.icon.type == "fonticon" %}
+          <div class="timeline-icon" style="background-color: {{ milestone.icon.background_color }}"><i class="fa {{milestone.icon.class}}" aria-hidden="true"></i></div>
+        {% else %}
+          <img class="timeline-icon" src="{{ milestone.icon.src }}" style="background-color: {{ milestone.icon.background_color }}">
+        {% endif %}
       </div>
-      <div class="timeline-content wow slideInLeft animated">
-        <h3><strong>Under Graduation: May 2012</strong></h3>
-        <p>
-          I completed my undergraduation from Pune Institute of Computer Science in Information Technology. I
-          achieved First Class with Distinction throughout. My favourite subjects were Computer Networks,
-          Algorithms, Data Structures and Operating Systems.
-        </p>
-      </div>
-    </div>
-    <div class="timeline-block evenHeights clearfix span-7 t-span-12">
-      <div class="timeline-img wow zoomIn animated">
-        <img class="timeline-icon" src="/images/tw-logo.png">
-      </div>
-      <div class="timeline-content wow slideInRight animated">
-        <h3><strong>Joined ThoughtWorks: July 2012</strong></h3>
-        <p>
-          After undergrad, I joined ThoughtWorks Inc. as an application developer. I was one of the chosen 4
-          out of over 300 students to get selected. ThoughtWorks was a perfect start to my career because at
-          ThoughtWorks, I got to learn something new every single day. It was a place where you can <strong>never</strong>
-          be the smartest person in the room.
-        </p>
+      <div class="timeline-content wow animated {{ milestone.additional_classes }}">
+        <h3><strong>{{ milestone.title }}</strong></h3>
+        <p>{{ milestone.description }}</p>
       </div>
     </div>
-    <div class="timeline-block evenHeights clearfix span-7 t-span-12">
-      <div class="timeline-img wow zoomIn animated">
-        <img class="timeline-icon" src="/images/frontend.png">
-      </div>
-      <div class="timeline-content wow slideInLeft animated">
-        <h3><strong>First Frontend Experience: April 2013</strong></h3>
-        <p>
-          Soon after joining ThoughtWorks I learnt frontend skills and got staffed as the only frontend
-          developer for a client project in TW-Delhi. It's where I lead the frontend development on my own. It
-          was a small team and I got to learn a lot from that experience.
-        </p>
-      </div>
-    </div>
-    <div class="timeline-block evenHeights clearfix span-7 t-span-12">
-      <div class="timeline-img wow zoomIn animated">
-        <img class="timeline-icon" src="/images/ror.png" style="background-color: #E7235E">
-      </div>
-      <div class="timeline-content wow slideInRight animated">
-        <h3><strong>Added Ruby on Rails to my skills: Oct 2013 </strong></h3>
-        <p>
-          My burning desire to be a full stack developer took a great turn when I started working on RoR for a
-          big project. Originally staffed as a frontend developer, it was difficult to get the right support
-          and work on both frontend and backend. I learnt basic RoR on my own and then got support from my
-          team and a few months later was able to call my self a RoR developer.
-        </p>
-      </div>
-    </div>
-    <div class="timeline-block evenHeights clearfix span-7 t-span-12">
-      <div class="timeline-img wow zoomIn animated">
-        <img class="timeline-icon" src="/images/railsgirls.png" style="background-color: orangered">
-      </div>
-      <div class="timeline-content wow slideInLeft animated">
-        <h3><strong>Rails Girls coach: December 2014</strong></h3>
-        <p>
-          Owing to my learning on the RoR project, it was time to give back to the community. I signed up as a
-          <a href="http://railsgirls.com/pune">Rails Girls</a> coach. The event took place in ThoughtWorks,
-          Pune. In about 3 hours me and my team of trainees deployed a working feedback application to Heroku.
-          It got even better for me when I received extremely positive feedback from my trainee.
-        </p>
-      </div>
-    </div>
-    <div class="timeline-block evenHeights clearfix span-7 t-span-12">
-      <div class="timeline-img wow zoomIn animated">
-        <img class="timeline-icon" src="/images/rtl.png">
-      </div>
-      <div class="timeline-content wow slideInRight animated">
-        <h3><strong>Building "Right To Left": March 2015</strong></h3>
-        <p>
-          A multi-national, multi-locale marketing website with thousands of pages. We had to support the
-          entire website in Middle East countries and support Right To Left languages like Arabic. This was
-          probably the first time ever in ThoughtWorks that we got this unique requirement. Learnt a lot about
-          I18 (internationalization). I also worked on Performance of the website which was most challenging.
-        </p>
-      </div>
-    </div>
-    <div class="timeline-block evenHeights clearfix span-7 t-span-12">
-      <div class="timeline-img wow zoomIn animated">
-        <div class="timeline-icon"><i class="fa fa-code" aria-hidden="true"></i></div>
-      </div>
-      <div class="timeline-content wow slideInLeft animated">
-        <h3><strong>Multi national, multi locale marketing website: 2015 - 2016</strong></h3>
-        <p>
-          Helped team slash the front-end testing time by developing a visual testing framework for automated UI testing.
-          Helped with improving the performance of a multi-locale, multi-national marketing website.
-        </p>
-      </div>
-    </div>
-    <div class="timeline-block evenHeights clearfix span-7 t-span-12">
-      <div class="timeline-img wow zoomIn animated">
-        <div class="timeline-icon"><i class="fa fa-tasks" aria-hidden="true"></i></div>
-      </div>
-      <div class="timeline-content wow slideInRight animated">
-        <h3><strong>Energy domain : 2016</strong></h3>
-        <p>
-          Worked as a full-stack developer to build a platform to be used for promoting energy efficient resource utilization
-          at factories and work places, thus, reducing the carbon footprint and going green.
-        </p>
-      </div>
-    </div>
+  {% endfor %}
   </div>
 </section>
 
