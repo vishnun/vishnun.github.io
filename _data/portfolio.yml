@@ -1,0 +1,8 @@
+- title: "Satellites - An interactive visualization"
+  image: /images/portfolio/satellites.png
+  short_description: A visualization to explore a satellite dataset.
+  link: https://satellites.herokuapp.com/
+  additional_classes: fadeInLeft
+  content_file_path: projects/satellites.html
+  id: p1
+

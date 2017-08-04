@@ -6,8 +6,8 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 @import "variables";
+@import "modal";
 @import "form";
-
 
 @mixin sectionTitle() {
   h1 {
@@ -42,6 +42,41 @@
     @include retina-image("/images/bg-pattern", 11px, jpeg);
     .bullets {
       max-width: 1024px;
+    }
+  }
+
+  #portfolio {
+    position: relative;
+    z-index: 5;
+    padding: 20px;
+    background: #efefef;
+    box-shadow: 0px 1px 15px #b9b9b9 inset;
+    .section-header {
+      margin: 0;
+    }
+    .projects-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: auto;
+      .project-item {
+        background: white;
+        padding: 10px;
+        margin: 20px;
+        box-shadow: 2px 3px 8px #797979, -1px -1px 20px #bdbdbd;
+        .project-title {
+          margin: 10px 5px 0 5px;
+        }
+        .project-img {
+          max-width: 340px;
+        }
+        @include media($tablet) {
+          .project-img {
+            max-width: 300px;
+            max-height: 300px;
+          }
+        }
+      }
     }
   }
 

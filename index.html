@@ -128,8 +128,42 @@ html_title: vishnu
   </section>
 </div>
 
+<!--Remove sr-only once done.-->
+<section id="portfolio" class="sr-only">
+  <h2 class="section-header text-center"><strong>Projects</strong></h2>
+  <div class="container">
+    <ul class="projects-list">
+      {% for project in site.data.portfolio %}
+      <li class="project-item wow zoomIn animated">
+        <div class="modal">
+
+          <label for="modal-{{project.id}}">
+            <div class="modal-trigger">
+              <img class="project-img" src="{{ project.image }}" alt="{{ project.title }}">
+              <h3 class="project-title text-center">{{ project.title }}</h3>
+            </div>
+          </label>
+
+          <input class="modal-state" id="modal-{{project.id}}" type="checkbox" />
+          <div class="modal-fade-screen">
+            <div class="modal-inner">
+              <div class="modal-close" for="modal-{{project.id}}">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </div>
+              {% include {{project.content_file_path}} %}
+            </div>
+          </div>
+
+        </div>
+
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
 <section id="my-journey">
-  <h2 class="text-center">My Journey so far..</h2>
+  <h2 class="text-center"><strong>My Journey so far..</strong></h2>
   <div class="timeline container">
   {% for milestone in site.data.timeline %}
     <div class="timeline-block evenHeights clearfix span-7 t-span-12">
