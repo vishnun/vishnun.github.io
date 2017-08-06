@@ -1,0 +1,32 @@
+.mobile-text-center {
+  @include media($mobile) {
+    text-align: center;
+  }
+}
+
+
+.mobile-visible {
+  display: none !important;
+  @include media($mobile) {
+    display: block !important;
+  }
+}
+
+.mobile-hidden {
+  @include media($mobile) {
+    display: none !important;
+  }
+}
+
+.desktop-visible {
+  display: none !important;
+  @include media($desktop) {
+    display: block !important;
+  }
+}
+
+.desktop-hidden {
+  @include media($desktop) {
+    display: none !important;
+  }
+}

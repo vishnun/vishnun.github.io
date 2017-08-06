@@ -6,6 +6,7 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 @import "variables";
+@import "helper-styles";
 @import "modal";
 @import "form";
 
@@ -35,6 +36,58 @@
 }
 
 .home {
+
+  .modal {
+    .divider {
+      height: 3px;
+      background: #ccc;
+      background: radial-gradient(#ccc, transparent, transparent);
+      margin: 20px auto;
+    }
+    .modal-close {
+      top: 0;
+      right: 0;
+      height: 34px;
+      width: 34px;
+      .fa {
+        margin: 10px;
+      }
+    }
+    .modal-fade-screen {
+      padding-top: 5%;
+    }
+    .modal-inner {
+      max-height: 90%;
+      max-width: 90%;
+      width: auto;
+      padding: 20px;
+      overflow: hidden;
+      .modal-body {
+        max-height: 800px;
+        overflow: auto;
+      }
+    }
+
+    @include media($mobile) {
+      .modal-inner {
+        .modal-body {
+          max-height: 500px;
+        }
+      }
+      .modal-trigger {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .modal-title {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .modal-intro {
+        font-size: 14px;
+      }
+    }
+  }
+
   #skills {
     @include sectionTitle();
     @import "home/icon-bullets";
@@ -66,6 +119,7 @@
         box-shadow: 2px 3px 8px #797979, -1px -1px 20px #bdbdbd;
         .project-title {
           margin: 10px 5px 0 5px;
+          font-size: 14px;
         }
         .project-img {
           max-width: 340px;

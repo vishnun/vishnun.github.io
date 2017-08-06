@@ -208,11 +208,6 @@ pre {
   text-align: center;
 }
 
-.mobile-text-center {
-  @include media($mobile) {
-    text-align: center;
-  }
-}
 
 .text-right {
   text-align: right;

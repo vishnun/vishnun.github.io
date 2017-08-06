@@ -122,10 +122,6 @@
 
     .modal-content {
       color: $base-font-color;
-
-      @include media($medium-screen) {
-        columns: 2 8em;
-      }
     }
 
     a.cta {
