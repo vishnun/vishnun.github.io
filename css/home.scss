@@ -92,7 +92,8 @@
     @include sectionTitle();
     @import "home/icon-bullets";
     padding: 20px 10px;
-    @include retina-image("/images/bg-pattern", 11px, jpeg);
+    @include retina-image("/images/bg-pattern", 10px, jpeg);
+    background-size: 10px;
     .bullets {
       max-width: 1024px;
     }
